@@ -10,7 +10,7 @@ RUN pwd
 # RUN cd /home/runner/work/ && ls -l
 RUN ls -l
 # RUN cd /home/runner/work && ls -l
-RUN find / -type f -name getalerts.js
+RUN find ~+ -type f -name getalerts.js
 # COPY getalerts.js app/
 # COPY calculator.js app/
 WORKDIR /app
