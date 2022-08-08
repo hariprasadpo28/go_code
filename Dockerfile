@@ -13,6 +13,7 @@ RUN ls -l
 WORKDIR /app
 RUN ls -l
 USER node
+RUN node getalerts.js
 # COPY *.js /app
 # COPY inventory/build/*.props /app/inventory/build
 
